@@ -4,12 +4,16 @@ body {
 }
 
 .container {
-  display: grid;
-  max-width: 1024px;
   margin: 0 auto;
+  height: 100vh;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: rgba(63, 9, 51, 0.671);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 h1,
 p {
@@ -18,7 +22,7 @@ p {
 }
 
 img {
-  width: 90%;
+  width: 50%;
   margin: -32px auto;
 }
 
@@ -84,5 +88,12 @@ img {
   }
   100% {
     top: 0em;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    background: url("/asset/bg-mobile.jpg") no-repeat center;
+    background-size: cover;
   }
 }
