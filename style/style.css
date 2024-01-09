@@ -91,9 +91,3 @@ img {
   }
 }
 
-@media (max-width: 425px) {
-  body {
-    background: url("/asset/bg-mobile.jpg") no-repeat center;
-    background-size: cover;
-  }
-}
