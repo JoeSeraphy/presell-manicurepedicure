@@ -1,19 +1,11 @@
 body {
-  background-color: #5f0f4e;
   font-family: "Poppins", sans-serif;
 }
 
 .container {
-  margin: 0 auto;
-  height: 100vh;
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  margin: 164px auto;
+
   text-align: center;
-  background: rgba(63, 9, 51, 0.671);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
 }
 h1,
 p {
@@ -22,8 +14,7 @@ p {
 }
 
 img {
-  width: 50%;
-  margin: -32px auto;
+  margin: 0 auto;
 }
 
 .title {
@@ -32,8 +23,8 @@ img {
 }
 
 .text {
-  margin-top: -36px;
-  font-size: 20px;
+  font-size: 24px;
+  color: #323232;
 }
 
 .text2 {
@@ -42,29 +33,25 @@ img {
 }
 
 .button {
+  width: 200px;
   font-size: 18px;
   color: #ffff;
   text-decoration: none;
-  background-color: #87bf17;
-  border: 1px solid #ffff;
+  background-color: #718be0;
   border-radius: 10px;
   padding: 0.65em 1.6em;
   font-weight: 400;
   display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 16px auto;
-  transition: all 0.2s;
-  animation: buttonbouncy 5s infinite linear;
-}
-
-.button:hover {
-  background-color: #4b6b0c;
 }
 
 .button img {
-  width: 15%;
-  height: 15%;
-  margin-left: 16px;
+  width: 22px;
+  display: flex;
+  justify-content: end;
 }
 
 @keyframes buttonbouncy {
@@ -90,4 +77,3 @@ img {
     top: 0em;
   }
 }
-
