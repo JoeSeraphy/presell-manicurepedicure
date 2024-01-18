@@ -1,14 +1,26 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #282727;
 }
 
+h1 {
+  color: #ffff;
+  font-size: 30px;
+  text-align: center;
+  margin: 64px 0;
+  padding: 0 16px;
+}
 .container1 {
-  margin: 0 auto;
+  margin: 100px auto;
   display: grid;
   justify-content: center;
   align-items: center;
-  background-color: #282727;
   padding-bottom: 16px;
+}
+
+img {
+  width: 360px;
+  margin: 0 auto;
 }
 .container2 {
   margin: 0 auto;
@@ -31,13 +43,12 @@ body {
   margin: 0 auto;
 }
 
-.button {
+a {
   width: 260px;
-  font-size: 32px;
+  font-size: 24px;
   color: #ffff;
   text-decoration: none;
   background-color: #138a24;
-  border: 1px solid #ffff;
   border-radius: 50px;
   padding: 0.4em 1.6em;
   font-weight: 400;
@@ -46,7 +57,6 @@ body {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  margin-top: -42px;
 }
 @media (max-width: 1024px) {
   .faby {
