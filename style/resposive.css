@@ -41,6 +41,12 @@
     width: 375px;
     padding: 10px;
   }
+
+  .container2 .oferta .basico .text,
+  .container2 .oferta .completo .text {
+    border: 1px solid red;
+    width: 375px;
+  }
   .container2 .oferta .basico .text .basic {
     width: 320px;
   }
@@ -164,9 +170,14 @@
     gap: 16px;
   }
 
+  .container5 .videoTestemunha .video {
+    width: 405px;
+  }
+
   .container7 .faqFlex {
     display: grid;
     justify-content: center;
+    width: 421px;
   }
   .container7 .faqFlex .faqs {
     width: 400px;
@@ -174,6 +185,39 @@
   }
 
   .container7 .faqFlex .whatsapp .button {
+    font-size: 16px;
+    padding: 18px 38px;
+    width: 370px;
+  }
+
+  .container7 .garantia {
+    width: 100%;
+    padding: 18px 8px;
+    margin: 0 auto;
+  }
+
+  .container7 .garantia .flexGarantia {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .container7 .garantia .flexGarantia img {
+    margin: 16px auto;
+  }
+
+  .footer .text {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    gap: 16px;
+  }
+
+  .footer .text .button {
     font-size: 16px;
     padding: 18px 38px;
     width: 370px;
