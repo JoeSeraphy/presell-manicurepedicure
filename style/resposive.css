@@ -1,0 +1,181 @@
+@media (max-width: 768px) {
+}
+@media (max-width: 426px) {
+  .container {
+    padding: 10px;
+  }
+  .container .title {
+    margin: 0 auto;
+    width: 370px;
+  }
+  .container .video {
+    width: 425px;
+    margin: -200px auto;
+    padding: 0 16px;
+  }
+  .container2 {
+    padding: 10px 0;
+  }
+
+  .container2 .title {
+    padding-bottom: 20px;
+  }
+
+  .container2 .oferta {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+  }
+
+  .container2 .oferta .basico {
+    height: 396px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    width: 375px;
+  }
+  .container2 .oferta .completo {
+    display: grid;
+    justify-content: center;
+    width: 375px;
+    padding: 10px;
+  }
+  .container2 .oferta .basico .text .basic {
+    width: 320px;
+  }
+  .container2 .oferta .basico .text .subtext {
+    font-size: 34px;
+    padding: 12px 0px;
+  }
+  .container2 .oferta .completo .text .melhor {
+    width: 320px;
+  }
+
+  .container2 .oferta .basico .text .list,
+  .container2 .oferta .completo .text .list {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 368px;
+    font-size: 16px;
+    margin: 0 42px;
+    padding: 0 16px;
+  }
+
+  .container2 .oferta .basico .text .button,
+  .container2 .oferta .completo .text .button,
+  .container3 .textBonus .button {
+    font-size: 16px;
+    padding: 18px 38px;
+    width: 370px;
+    margin: 0 auto;
+  }
+  .container3 .cards .card,
+  .container6 .cards .card {
+    width: 375px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container3 .cards .card .text,
+  .container6 .cards .card .text {
+    width: 375px;
+  }
+  .container3 .cards .card img,
+  .container6 .cards .card img {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .container3 .cards .card .text .title,
+  .container6 .cards .card .text .title {
+    font-size: 18px;
+  }
+
+  .container3 .textBonus {
+    width: 375px;
+  }
+
+  .container3 .textBonus .title {
+    font-size: 24px;
+    width: 375px;
+    margin: 0 auto;
+  }
+
+  .container3 .textBonus .flexImg {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .container3 .textBonus .flexImg img {
+    width: 375px;
+  }
+  .container3 .textBonus .text {
+    font-size: 24px;
+  }
+  .container4 .title,
+  .container5 .title,
+  .container6 .titleCont,
+  .container7 .title {
+    font-size: 32px;
+    margin: 0 auto;
+  }
+
+  .container4 .flexAulas {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container4 .button,
+  .container5 .button,
+  .container6 .button {
+    font-size: 16px;
+    padding: 18px 38px;
+    width: 370px;
+  }
+  .container5 .flexImg {
+    width: 100vw;
+    overflow-x: scroll;
+    gap: 0px;
+  }
+  .container5 .flexImg img {
+    width: 405px;
+  }
+
+  .container5 .sobre .sobreImg {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .container5 .sobre .sobreImg .FabyCardoso {
+    margin: 0 auto;
+  }
+  .container5 .sobre .sobreImg p {
+    margin: 0 auto;
+  }
+
+  .container5 .videoTestemunha {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .container7 .faqFlex {
+    display: grid;
+    justify-content: center;
+  }
+  .container7 .faqFlex .faqs {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .container7 .faqFlex .whatsapp .button {
+    font-size: 16px;
+    padding: 18px 38px;
+    width: 370px;
+  }
+}
