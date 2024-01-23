@@ -67,6 +67,9 @@ body {
   align-items: center;
   margin-top: 32px;
 }
+.container2 .oferta .completo .text .list .amarelo {
+  color: #faff60;
+}
 
 .container2 .oferta .basico .text .basic {
   background-color: #ae7fad;

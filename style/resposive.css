@@ -44,7 +44,6 @@
 
   .container2 .oferta .basico .text,
   .container2 .oferta .completo .text {
-    border: 1px solid red;
     width: 375px;
   }
   .container2 .oferta .basico .text .basic {
@@ -142,9 +141,11 @@
     width: 370px;
   }
   .container5 .flexImg {
-    width: 100vw;
+    width: 425px;
     overflow-x: scroll;
     gap: 0px;
+    padding: 16px 8px;
+    margin: 0 auto;
   }
   .container5 .flexImg img {
     width: 405px;
