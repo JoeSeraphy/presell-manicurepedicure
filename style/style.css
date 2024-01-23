@@ -54,6 +54,10 @@ body {
   border-radius: 10px;
 }
 
+.container2 .oferta .completo {
+  box-shadow: 2px 2px 20px #fff;
+}
+
 .container2 .oferta .basico .text,
 .container2 .oferta .completo .text {
   margin: 0 auto;
@@ -116,17 +120,15 @@ body {
   padding: 25px 80px;
   font-size: 21px;
   border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
-.container2 .oferta .completo .text .subtext {
-  font-size: 28px;
-  padding: 14px 38px;
-  text-align: center;
-  background-color: #5db0c7;
-  border-radius: 30px;
-  position: absolute;
-  top: 896;
-  right: 542;
+.container2 .oferta .completo .text .melhor {
+  width: 380px;
+  margin: 0 auto;
 }
 .container2 .oferta .completo .text .bg-orange {
   margin: 0 auto;
@@ -246,6 +248,10 @@ body {
   align-items: center;
 }
 
+.container4 .flexAulas .flexIcon {
+  display: flex;
+}
+
 .container4 .flexAulas .aulas {
   width: 326px;
   padding: 10px;
@@ -254,6 +260,11 @@ body {
   gap: 16px;
 }
 
+.container4 .flexAulas .aulas .flexIcon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 .container4 .flexAulas .aulas p {
   font-size: 19px;
   padding-bottom: 5px;
@@ -275,17 +286,21 @@ body {
   border-radius: 3px;
   margin: 20px auto;
   width: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .container5 .flexImg {
+  margin: 0 auto;
   max-width: 1024px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 12px;
-  overflow-x: hidden;
   padding: 16px;
-  margin: 0 auto;
+  overflow-x: scroll;
 }
 
 .container5 .sobre {
@@ -357,7 +372,6 @@ body {
 
 .container7 .faqFlex .faqs {
   width: 500px;
-  font-size: 14px;
   border: 1px solid #615c5c;
 }
 
@@ -367,8 +381,27 @@ body {
 }
 
 .container7 .faqFlex .faqs .faq .ask {
+  cursor: pointer;
+  background: url("/asset/icons/plus-sign.png") no-repeat;
   padding-bottom: 15px;
-  border-bottom: 1px solid #615c5c;
+}
+.container7 .faqFlex .faqs .faq .ask.ativo {
+  cursor: pointer;
+  background: url("/asset/icons/minus.png") no-repeat;
+  padding-bottom: 15px;
+}
+
+.container7 .faqFlex .faqs .faq .ask .pergunta {
+  font-size: 14px;
+  margin-left: 32px;
+}
+
+.container7 .faqFlex .faqs .faq .anwser {
+  display: none;
+}
+.container7 .faqFlex .faqs .faq .anwser.ativo {
+  display: block;
+  font-size: 14px;
 }
 
 .container7 .faqFlex .whatsapp {
@@ -392,11 +425,44 @@ body {
   font-size: 21px;
   border-radius: 3px;
   margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.container7 .garantia {
+  background-color: #675682;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.container7 .garantia .subtext {
+  color: #faff60;
+}
+
+.container7 .garantia .subTitle {
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+}
+
+.container7 .garantia .flexGarantia {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer {
   background-color: #993366;
-
+  display: grid;
+  justify-content: center;
+  align-items: center;
   color: #fff;
 }
 
@@ -404,7 +470,7 @@ body {
   margin: 0 auto;
   max-width: 1024px;
   display: flex;
-  justify-content: space-around;
+  gap: 16px;
 }
 
 .footer .text span {
